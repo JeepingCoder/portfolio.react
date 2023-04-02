@@ -15,7 +15,7 @@ const Navbar = () => {
       </div>
       {/* This is my menu */}
       <div>
-        <ul className="hidden md:flex  text-[#36454F]">
+        <ul className="hidden md:flex  text-[#AD8F18]">
           <li>Home</li>
           <li>About</li>
           <li>Skills</li>
