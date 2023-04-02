@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter  } from "react-icons/fa";
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-import Logo from "../assets/patchlogo.png";
+import Logo from "../assets/Hannah.png";
 
 const Navbar = () => {
   const [navi, setNavi] = useState(false);
@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[150px] flex justify-between items-center px-4 bg-[#333333]">
       <div>
-        <img src={Logo} alt="logo image" style={{ width: "80px" }} />
+        <img src={Logo} alt="logo image" style={{ width: "100px" }} />
       </div>
       {/* This is my menu */}
       <div>
