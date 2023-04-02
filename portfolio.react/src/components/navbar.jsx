@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[150px] flex justify-between items-center px-4 bg-[#333333]">
       <div>
-        <img src={Logo} alt="logo image" style={{ width: "100px" }} />
+        <img src={Logo} alt="logo image" style={{ width: "130px" }} />
       </div>
       {/* This is my menu */}
       <div>
@@ -43,29 +43,29 @@ const Navbar = () => {
       </ul>
 
       {/* Social Media Icons */}
-      <div className="flex fixed flex-col top-[35%] left-0">
+      <div className="flex fixed flex-col top-[45%] left-0">
         <ul>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-600 bg-[#238636] ">
+            <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-600 bg-[#238636] font-Ubuntu ">
                 <a className="flex justify-between items-center w-full text-white" href="/">
                     Github <FaGithub size={25} />
                 </a>
             </li>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-600 bg-[#0a66c2] ">
+            <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-600 bg-[#0a66c2] ">
                 <a className="flex justify-between items-center w-full text-white" href="/">
                     Linkedin <FaLinkedin size={25} />
                 </a>
             </li>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-600 bg-[#1D9BF0] ">
+            <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-600 bg-[#1D9BF0] ">
                 <a className="flex justify-between items-center w-full text-white" href="/">
                     Twitter <FaTwitter size={25} />
                 </a>
             </li>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-600 bg-[#FFA500] ">
+            <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-600 bg-[#FFA500] ">
                 <a className="flex justify-between items-center w-full text-white" href="/">
                     Email <HiOutlineMail size={25} />
                 </a>
             </li>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-600 bg-[#555D50] ">
+            <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-600 bg-[#555D50] ">
                 <a className="flex justify-between items-center w-full text-white" href="/">
                     Resume <BsFillPersonLinesFill size={25} />
                 </a>
