@@ -18,12 +18,12 @@ const Navbar = () => {
         <ul className="hidden md:flex  text-[#AD8F18]">
           <li>Home</li>
           <li>About</li>
-          <li>Skills</li>
+          <li>Applications</li>
           <li>Contact</li>
         </ul>
       </div>
       {/* Hamburger Menu */}
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className="bg-[#AD8F18] md:hidden z-12">
         {!navi ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -43,7 +43,7 @@ const Navbar = () => {
       </ul>
 
       {/* Social Media Icons */}
-      <div className="fixed flex-col top-[45%] left-0">
+      <div className="hidden lg:flex fixed flex-col top-[45%] left-0">
         <ul>
             <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-600 bg-[#238636] font-Ubuntu rounded-md">
                 <a className="flex justify-between items-center w-full text-white" href="/">
