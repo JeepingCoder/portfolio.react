@@ -1,5 +1,5 @@
 import React from "react";
-import { head } from "../assets/head.png";
+// import { head } from "./assets/head.png";
 
 
 
@@ -8,6 +8,14 @@ const About = () => {
     <div name="about" className="w-full h-screen bg-[#3c1414] text-gray-500">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div>
+          <div>
+          {/* <img
+          className="rounded-full"
+          src={head}
+          alt="head"
+          style={{ width: "155px" }}
+        /> */}
+          </div>
           <div className="sm-text-right pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-[#ad8f18]">
               About

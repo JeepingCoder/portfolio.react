@@ -29,7 +29,7 @@ const Applications = () => {
               <div>
                 
                 <div>
-                <a href="https://github.com/JeepingCoder/pre-trip-plus" class="relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-medium transition-all bg-blue-600 rounded-full hover:bg-white group">
+                <a href="https://github.com/JeepingCoder/pre-trip-plus" class="relative inline-flex items-center justify-start px-5 py-3 overflow-hidden font-medium transition-all bg-blue-600 rounded-full hover:bg-white group">
 <span class="absolute inset-0 border-0 group-hover:border-[25px] ease-linear duration-100 transition-all border-white rounded-full"></span>
 <span class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-blue-600">Pretrip Plus</span>
 </a>
@@ -45,12 +45,12 @@ const Applications = () => {
             >
               <div>
                 <div>
-                <a href="https://mhengerer.github.io/WalkPerson/#access_token=BQCeHkc9eHdU0Ce9i8REk5_yxVS6RTEquTQvyUhTYQ3HNiXBg9419s4puLTg6yOh4XQ46dO924MvLMjUxs9i1rzXzeOYd4xQNOovQYigwDbkkKiNN0yX6BcA_2hZscFVeyTeeeDpRhs1Er3Ho72GlJfHVDpBPSQ8-6rPPXYF_A4SZZBWolp0mMqp42DSdj18e21W4B0YEIdIjzX_z0YfkGEtiukE6wvIAVOff-IYrABfAgT-pKLhrZXkoWakwrIagEtX_Kn_eas_UQs&token_type=Bearer&expires_in=3600" class="relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-medium transition-all bg-blue-600 rounded-full hover:bg-white group">
+                <a href="https://mhengerer.github.io/WalkPerson/#access_token=BQCeHkc9eHdU0Ce9i8REk5_yxVS6RTEquTQvyUhTYQ3HNiXBg9419s4puLTg6yOh4XQ46dO924MvLMjUxs9i1rzXzeOYd4xQNOovQYigwDbkkKiNN0yX6BcA_2hZscFVeyTeeeDpRhs1Er3Ho72GlJfHVDpBPSQ8-6rPPXYF_A4SZZBWolp0mMqp42DSdj18e21W4B0YEIdIjzX_z0YfkGEtiukE6wvIAVOff-IYrABfAgT-pKLhrZXkoWakwrIagEtX_Kn_eas_UQs&token_type=Bearer&expires_in=3600" class="relative inline-flex items-center justify-start px-5 py-3 overflow-hidden font-medium transition-all bg-blue-600 rounded-full hover:bg-white group">
 <span class="absolute inset-0 border-0 group-hover:border-[25px] ease-linear duration-100 transition-all border-white rounded-full"></span>
 <span class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-blue-600">Walkperson</span>
 </a>
 
-                  <a href="/"> </a>
+                  
                 </div>
               </div>
             </div>
@@ -61,18 +61,16 @@ const Applications = () => {
             >
               <div>
                 <div>
-                <a href="https://polar-springs-69420.herokuapp.com/" class="relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-medium transition-all bg-blue-600 rounded-full hover:bg-white group">
+                <a href="https://polar-springs-69420.herokuapp.com/" class="relative inline-flex items-center justify-start  px-5 py-3 overflow-hidden font-medium transition-all bg-blue-600 rounded-full hover:bg-white group">
 <span class="absolute inset-0 border-0 group-hover:border-[25px] ease-linear duration-100 transition-all border-white rounded-full"></span>
 <span class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-blue-600">Pet Check Plus</span>
 </a>
 
-                  <a href="/"> </a>
+                  
                 </div>
               </div>
             </div>
           </div>
-          <div className="max-w-[1000px] w-full px-4 grid gird-cols-2 gap-8"></div>
-          <div className="sm-text-right pb-8 pl-4"></div>
         </div>
       </div>
     </div>
