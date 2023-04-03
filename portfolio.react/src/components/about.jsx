@@ -1,4 +1,5 @@
 import React from "react";
+// import Image from "../assets/head.png";
 
 const About = () => {
   return (
@@ -10,6 +11,9 @@ const About = () => {
               About
             </p>
             <h1 className="text-2xl py-2 ">Take a minute to get to know me!</h1>
+          </div>
+          <div>
+          {/* <img className="rounded-full" src{head} alt="logo image" style={{ width: "155px" }} /> */}
           </div>
           <div>
         </div>
