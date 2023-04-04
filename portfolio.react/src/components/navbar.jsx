@@ -1,8 +1,15 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import {
+  FaBars,
+  FaTimes,
+  FaGithub,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa";
 import { BsPaperclip } from "react-icons/bs";
 import Logo from "../assets/Hannah.png";
 import { Link } from "react-scroll";
+
 
 const Navbar = () => {
   const [navi, setNavi] = useState(false);
@@ -11,39 +18,43 @@ const Navbar = () => {
   return (
     <div className="z-50 fixed w-full h-[150px] flex justify-between items-center px-4 bg-[#333333] text-[#AD8F18] text-2xl ">
       <div>
+        <a href="../components/home.jsx">
         <img
           className="rounded-full"
           src={Logo}
           alt="logo"
           style={{ width: "155px" }}
         />
+        </a>
+        
       </div>
-      
+
       <div>
         <ul className="hidden md:flex  ">
           <li>
-            <Link to="Home"smooth={true} duration={500}>
-              Home
-            </Link>
-          </li>
-          <li>
-          <Link to="About"smooth={true} duration={500}>
+            <Link to="about" smooth={true} duration={500}>
               About
             </Link>
           </li>
           <li>
-          <Link to="Applications"smooth={true} duration={500}>
+            <Link to="applications" smooth={true} duration={500}>
               Applications
             </Link>
           </li>
           <li>
-          <Link to="Contact"smooth={true} duration={500}>
+            <Link to="contact" smooth={true} duration={500}>
               Contact
+            </Link>
+          </li>
+          {/* resume field that give a downloadable resume a list of proficiencies */}
+          <li>
+            <Link to="contact" smooth={true} duration={500}>
+              Resume
             </Link>
           </li>
         </ul>
       </div>
-      
+
       <div onClick={handleClick} className=" md:hidden z-20">
         {!navi ? <FaBars /> : <FaTimes />}
       </div>
@@ -58,27 +69,22 @@ const Navbar = () => {
         }
       >
         <li>
-        <Link to="Home"smooth={true} duration={500}>
-              Home
-            </Link>
+          <Link to="about" smooth={true} duration={500}>
+            About
+          </Link>
         </li>
         <li>
-        <Link to="About"smooth={true} duration={500}>
-              About
-            </Link>
-        </li>
-        <li><Link to="Applications"smooth={true} duration={500}>
-              Applications
-            </Link>
+          <Link to="applications" smooth={true} duration={500}>
+            Applications
+          </Link>
         </li>
         <li>
-        <Link to="Contact"  smooth={true}>
-              Contact
-            </Link>
+          <Link to="contact" smooth={true}>
+            Contact
+          </Link>
         </li>
       </ul>
 
-      {/* Social Media Icons */}
       <div className="hidden lg:flex fixed flex-col top-[45%] left-0">
         <ul>
           <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-600 bg-[#238636] font-Ubuntu rounded-md">
@@ -116,7 +122,6 @@ const Navbar = () => {
         </ul>
       </div>
     </div>
-    
   );
 };
 

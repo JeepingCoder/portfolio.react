@@ -8,6 +8,8 @@ const contact = () => {
                 <div className="sm-text-right pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-[#ad8f18]">
               Contact
+
+              {/* email with name email address message field, move the cursor out of the field give notice field is required... text in the email field error */}
             </p>
           </div>
                 </div>
