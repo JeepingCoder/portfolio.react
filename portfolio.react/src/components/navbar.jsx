@@ -9,7 +9,7 @@ const Navbar = () => {
   const handleClick = () => setNavi(!navi);
 
   return (
-    <div className="fixed w-full h-[150px] flex justify-between items-center px-4 bg-[#333333] text-[#AD8F18] text-2xl ">
+    <div className="z-50 fixed w-full h-[150px] flex justify-between items-center px-4 bg-[#333333] text-[#AD8F18] text-2xl ">
       <div>
         <img
           className="rounded-full"
