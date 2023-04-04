@@ -9,7 +9,7 @@ const Applications = () => {
       name="applications"
       className="w-full md:h-screen bg-[#3c1414] text-gray-500"
     >
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1100px] mx-auto p-2 flex flex-col justify-center w-full h-full">
         <div>
           <div className="pb-8">
             <p className="text-4xl font-bold inline border-b-4 border-[#ad8f18]">
@@ -20,7 +20,7 @@ const Applications = () => {
             </p>
           </div>
           {/* card */}
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
             {/* Grid */}
             <div
               style={{ backgroundImage: `url(${PreTrip})` }}

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsPaperclip } from "react-icons/bs";
 import Logo from "../assets/Hannah.png";
 import { Link } from "react-scroll";
 
@@ -44,8 +43,8 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      {/* Hamburger Menu */}
-      <div onClick={handleClick} className=" md:hidden z-10">
+      
+      <div onClick={handleClick} className=" md:hidden z-20">
         {!navi ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -85,7 +84,7 @@ const Navbar = () => {
           <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-600 bg-[#238636] font-Ubuntu rounded-md">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="/"
+              href="https://github.com/JeepingCoder"
             >
               Github <FaGithub size={25} />
             </a>
@@ -93,7 +92,7 @@ const Navbar = () => {
           <li className="w-[150px] h-[50px] flex justify-between items-center rounded-md ml-[-100px] hover:ml-[-10px] duration-600 bg-[#0a66c2] ">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="/"
+              href="https://www.linkedin.com/in/ingrampr/"
             >
               Linkedin <FaLinkedin size={25} />
             </a>
@@ -101,25 +100,17 @@ const Navbar = () => {
           <li className="w-[150px] h-[50px] flex justify-between items-center rounded-md ml-[-100px] hover:ml-[-10px] duration-600 bg-[#1D9BF0] ">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="/"
+              href="https://twitter.com/pingram1285"
             >
               Twitter <FaTwitter size={25} />
-            </a>
-          </li>
-          <li className="w-[150px] h-[50px] flex justify-between items-center rounded-md ml-[-100px] hover:ml-[-10px] duration-600 bg-[hsl(39,100%,50%)] ">
-            <a
-              className="flex justify-between items-center w-full text-white"
-              href="/"
-            >
-              Email <HiOutlineMail size={25} />
             </a>
           </li>
           <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-600 bg-[#555D50] rounded-md ">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="/"
+              href="https://docs.google.com/document/d/1zMz9srtNIIRJgsFK5hhEM6UgaSL1hLqErHv5eOR_8OI/edit?usp=sharing"
             >
-              Resume <BsFillPersonLinesFill size={25} />
+              Resume <BsPaperclip size={25} />
             </a>
           </li>
         </ul>
