@@ -5,6 +5,7 @@ import Applications from "./components/applications";
 import Contact from "./components/contact";
 import Social from "./components/social";
 
+
 function App() {
   return (
     <div>
