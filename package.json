@@ -2,7 +2,13 @@
  
 
 {
+    "homepage": "https://github.com/JeepingCoder/portfolioreact",
     "dependencies": {
       "react-icons": "^4.8.0"
-    }
+    },
+     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d master -d build"
+        
+      }
   }
